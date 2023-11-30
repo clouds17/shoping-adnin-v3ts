@@ -13,6 +13,8 @@ do
             git commit -m "${createAt}"
             git push origin main
             echo "------- 提交成功 ---------"
+            sleep 1
+            exit 1
             ;;
         [nN][oO] | [nN])
             echo "-------- 提交中断 --------"
